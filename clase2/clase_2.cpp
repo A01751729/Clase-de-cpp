@@ -1,8 +1,10 @@
 # include <iostream>
+# include <vector>
 
 using std::cin;
 using std::cout;
 using std::endl;
+using std:: vector;
 
 void metodo(int x, int &y, int *z){
   x=x+5;
@@ -11,6 +13,11 @@ void metodo(int x, int &y, int *z){
   }
 
 int main(){
+
+  vector <int> vec;
+  vec.push_back(1);
+  vec.size();
+  vec.pop_back();
   
   int arreglo[3]={10,20,30};
   cout<<arreglo[1]<<endl;
