@@ -1,6 +1,7 @@
 #include <iostream>
 #include "dado.h"
 #include "jugador.h"
+#include "tablero.h"
 
 using std::cout;
 using std::endl;
@@ -25,5 +26,7 @@ yo.imprimir();
 
 Jugador tu(10, "Sirael");
 tu.imprimir();
-}
 
+Tablero si;
+si.imprime();
+}
