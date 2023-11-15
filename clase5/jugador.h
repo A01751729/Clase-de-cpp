@@ -13,6 +13,9 @@ class Jugador
         Dado midado;
         void cambia_posicion(int n);
     public:
+        Jugador();
+        Jugador(int n, string m);
+        ~Jugador();
         int get_posicion();
         void set_nombre(string n);
         void imprimir();

@@ -17,8 +17,13 @@ int main()
  }
 
 Jugador yo;
-yo.set_nombre("Andres");
-yo.imprimir(); 
+yo.imprimir();
+yo.set_nombre("Juan"); 
+yo.imprimir();
 yo.mover();
 yo.imprimir();
+
+Jugador tu(10, "Sirael");
+tu.imprimir();
 }
+

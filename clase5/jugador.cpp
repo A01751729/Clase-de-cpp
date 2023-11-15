@@ -30,3 +30,19 @@ void Jugador:: mover()
     int mov=midado.lanzar();
     cambia_posicion(mov);
 }
+
+Jugador:: Jugador()
+{
+    nombre = "Andres";
+    posicion = 0;
+}
+
+Jugador :: Jugador(int n, string m)
+{
+    nombre = m;
+    posicion = n;
+}
+ Jugador:: ~Jugador()
+ {
+    cout << "Desde destructor de jugador " << nombre << endl;
+ }
