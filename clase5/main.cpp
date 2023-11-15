@@ -27,6 +27,6 @@ yo.imprimir();
 Jugador tu(10, "Sirael");
 tu.imprimir();
 
-Tablero si;
-si.imprime();
+Tablero board;
+board.imprime();
 }
